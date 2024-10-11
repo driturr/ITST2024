@@ -1,4 +1,3 @@
-import json
 import nmap
 
 def scan(ip):

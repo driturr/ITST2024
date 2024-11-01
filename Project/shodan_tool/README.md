@@ -32,7 +32,7 @@ pip3 install shodan
 3. Set up your Shodan API key:
 - Create a `.env` file in the root of the project:
 `SHODAN_API_KEY=shodan_api_key_here`
-- Replace your_shodan_api_key_here with your actual Shodan API key.
+- Replace `your_shodan_api_key_here` with your actual Shodan API key.
 
 ### Optional but recommended:
 Activate a virtual environment and add the `.env` within this environment to keep it isolated.
@@ -125,7 +125,7 @@ The reports are saved in the same directory with the following names:
 1. Log in to Shodan
 2. Locate your API Key in your Account Overview
 3. Copy the API Key to authenticate your request to the Shodan API
-4. In the same path where the shodan_tool.py is, create a .env file and store the API key there. Example in the `.env` file: `SHODAN_API_KEY=this_is_my_api_key`
+4. In the same path where the shodan_tool.py is, create a `.env` file and store the API key there. Example in the `.env` file: `SHODAN_API_KEY=this_is_my_api_key`
 5. Check the file to confirm that it contains the key:`cat .env`. Make sure there's nothing else but the key in this specific format (no extra spaces, etc.).
 
 ## Logging

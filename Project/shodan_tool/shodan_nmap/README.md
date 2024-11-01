@@ -30,7 +30,7 @@ pip3 install python-nmap
 
 ### Clone the repository  
 1. Clone this repo to your local machine
-`git clone https://github.com/dirturr/ITST2024/Project/shodan_tool.git`  
+`git clone https://github.com/driturr/ITST2024/tree/main/Project/shodan_tool/shodan_nmap`  
 
 2. Install the required libraries:  
 `pip3 install -r requirements.txt`

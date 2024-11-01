@@ -18,7 +18,7 @@ pip3 install cryptography
 
 ### Clone the repository  
 1. Clone this repo to your local machine
-`git clone https://github.com/dirturr/ITST2024/Project/crypto_tool.git`  
+`git clone https://github.com/driturr/ITST2024/tree/main/Project/crypto_tool`  
 
 2. Install the required libraries:  
 `pip3 install -r requirements.txt`

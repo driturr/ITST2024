@@ -23,7 +23,7 @@ pip3 install requests
 ```
 ### Clone the repository  
 1. Clone this repo to your local machine
-`git clone https://github.com/dirturr/ITST2024/Project/check_website.git`  
+`git clone https://github.com/driturr/ITST2024/tree/main/Project/check_website`  
 
 2. Install the required libraries:  
 `pip3 install -r requirements.txt`

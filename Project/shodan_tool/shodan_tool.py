@@ -71,9 +71,7 @@ def lookup_ip(ip_address, check_vulns=False):
                 continue
             port_info = {"Port": item['port'], "Service": item.get('product', 'Not Available')}
             open_ports.append(port_info)
-            print(f"{port_info}") #replace with the line below if it doesn't work
-            # print(f"Port: {item['port']}, Service: {item.get('product', 'Not Available')}")
-        
+            print(f"{port_info}")
 
         vulnerabilities = []
         # Look for vulnerabilties after getting service information if requested

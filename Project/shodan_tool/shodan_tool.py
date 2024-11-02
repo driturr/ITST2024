@@ -59,7 +59,7 @@ def lookup_ip(ip_address, check_vulns=False):
         print(f"Operating System: {host_info.get('os', 'Not Available')}")
 
         open_ports = []
-        product = 'Unkown Service' # track if the specified port was found
+        product = 'Unkown Service'
 
         # Print "open ports" only if no specific port was provided
         if not port:
